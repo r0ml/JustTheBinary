@@ -14,8 +14,8 @@ let package = Package(
   ],
   targets: [
      .binaryTarget(name: "OpenCV",
-                  url: "https://github.com/r0ml/JustTheBinary/releases/download/4.10.1/OpenCV.xcframework.zip",
-                  checksum: "dab5eeb363f296a8dbca64bfa025f956cd5afe97ee41378698f66ff9cfbaccbc"),
+                  url: "https://github.com/r0ml/JustTheBinary/releases/download/4.10.2/OpenCV.xcframework.zip",
+                  checksum: "39f3a218c562dd857f10c1c04eaa9085516c0ce9b34830a792d8c5f39a64c957"),
   ]
 )
 
