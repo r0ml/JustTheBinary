@@ -1,3 +1,7 @@
+# Copy the built OpenCV.xcframework from the OpenCV repository 
+# Check the JustTheBinary repo and figure out the next release number by looking at the tags
+# Run ./postbuild.sh releaseNumber
+# commit, tag, and push
 
 if [ $# -lt 1 ]; then
   echo 1>&2 "$0: not enough arguments"
